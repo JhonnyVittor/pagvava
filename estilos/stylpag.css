@@ -1,0 +1,158 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'teste1';
+    src: url('../fontes/1942.ttf') format(truetype); 
+    font-weight: normal;
+    font-style: normal;  
+}
+@font-face {
+    font-family: 'teste2';  
+    src: url('../fontes/Doctor\ Glitch.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor1:#538BD3;
+    --cor2:#B9B9B9;
+    --cor3:#AC6E4C;
+    --cor4:#414141;
+    --cor5:#17161A;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html body{
+    background-image: linear-gradient(to right, var(--cor5), var(--cor3));
+    height: 90vh;      
+    width: 90vw;
+}
+
+/*CHYPER*/
+.infos{
+    background-image: linear-gradient(to right, var(--cor5), var(--cor3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    margin-top: 5vh;
+}
+
+.infos #leitura  h1{
+    font-family: 'teste1';
+    font-size: 2vw;
+    color: var(--cor2);
+}
+.infos #leitura h2{
+    font-family: 'teste2';
+    font-size: 2vw;
+    color: var(--cor2);
+}
+
+.infos #leitura h3{
+    font-size: 1.4vw;
+    color: var(--cor1);
+    
+}
+
+.infos #leitura p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 1.3vw;
+    color: var(--cor2);
+}
+
+.infos img{
+    width: 21%;
+    height: 35%;
+}
+
+/*CHAMBER*/
+.infosch{
+    background-image: linear-gradient(to right, var(--cor5), var(--cor3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    margin-top: 4vh;
+    
+}
+
+.infosch #leiturach  h1{
+    font-family: 'teste1';
+    font-size: 2vw;
+    color: var(--cor2);
+    
+}
+.infosch #leiturach h2{
+    font-family: 'teste2';
+    font-size: 2vw;
+    color: var(--cor2);
+    
+}
+
+.infosch #leiturach h3{
+    font-size: 1.4vw;
+    color: var(--cor1);
+}
+
+.infosch #leiturach p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3vw;
+    color: var(--cor2);
+    text-align: justify;
+}
+
+.infosch img{
+    width: 21%;
+    height: 35%;
+}
+
+/*OPERATOR*/  
+.infosop{
+    background-image: linear-gradient(to right, var(--cor5), var(--cor3));
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 99vw;
+    
+}
+.infosop #leituraop  h1{
+    font-family: 'teste1';
+    font-size: 2vw;
+    color: var(--cor2);
+    
+}
+.infosop #leituraop h2{
+    font-family: 'teste2';
+    font-size: 2vw;
+    color: var(--cor2);
+    
+}
+
+.infosop #leituraop h3{
+    font-size: 1.5vw;
+    color: var(--cor1);
+    
+}
+
+.infosop #leituraop p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.6vw;
+    color: var(--cor2);
+    text-align: justify;
+}
+
+.infosop img{
+    width: 14%;
+    height: 35%;
+    transform:scaleX(-1) ;
+    
+    
+}
