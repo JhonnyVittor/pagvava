@@ -39,23 +39,22 @@ html body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 99vw;
-    margin-top: 5vh;
+    width: 97vw;
 }
 
 .infos #leitura  h1{
     font-family: 'teste1';
-    font-size: 2vw;
+    font-size: 6vh;
     color: var(--cor2);
 }
 .infos #leitura h2{
     font-family: 'teste2';
-    font-size: 2vw;
+    font-size:5vh;
     color: var(--cor2);
 }
 
 .infos #leitura h3{
-    font-size: 1.4vw;
+    font-size: 4vh;
     color: var(--cor1);
     
 }
@@ -63,7 +62,7 @@ html body{
 .infos #leitura p{
     font-family: 'Courier New', Courier, monospace;
     text-align: justify;
-    font-size: 1.3vw;
+    font-size: 3vh;
     color: var(--cor2);
 }
 
@@ -78,32 +77,32 @@ html body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 99vw;
-    margin-top: 4vh;
+    width: 97vw;
+    
     
 }
 
 .infosch #leiturach  h1{
     font-family: 'teste1';
-    font-size: 2vw;
+    font-size: 6vh;
     color: var(--cor2);
     
 }
 .infosch #leiturach h2{
     font-family: 'teste2';
-    font-size: 2vw;
+    font-size: 5vh;
     color: var(--cor2);
     
 }
 
 .infosch #leiturach h3{
-    font-size: 1.4vw;
+    font-size: 4vh;
     color: var(--cor1);
 }
 
 .infosch #leiturach p{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.3vw;
+    font-size: 3vh;
     color: var(--cor2);
     text-align: justify;
 }
@@ -116,35 +115,34 @@ html body{
 /*OPERATOR*/  
 .infosop{
     background-image: linear-gradient(to right, var(--cor5), var(--cor3));
-    margin-top: 10vh;
     display: flex;
     justify-content: center;
     align-items:center;
-    width: 99vw;
+    width: 97vw;
     
 }
 .infosop #leituraop  h1{
     font-family: 'teste1';
-    font-size: 2vw;
+    font-size: 6vh;
     color: var(--cor2);
     
 }
 .infosop #leituraop h2{
     font-family: 'teste2';
-    font-size: 2vw;
+    font-size: 5vh;
     color: var(--cor2);
     
 }
 
 .infosop #leituraop h3{
-    font-size: 1.5vw;
+    font-size: 4vh;
     color: var(--cor1);
     
 }
 
 .infosop #leituraop p{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1.6vw;
+    font-size: 3vh;
     color: var(--cor2);
     text-align: justify;
 }
