@@ -130,13 +130,13 @@ nav img:hover{
 .container article{
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 4%;
   
   
 }
 .container iframe{
     width: 80vw;
-    height: 50vh;
+    height: 55vh;
     border-radius: 20px;
     
     
